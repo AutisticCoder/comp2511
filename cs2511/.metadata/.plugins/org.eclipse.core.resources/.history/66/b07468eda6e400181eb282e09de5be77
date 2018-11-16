@@ -1,0 +1,24 @@
+package multipleThreads;
+
+public class Counter implements Runnable {
+	private static int counter = 0;
+	
+	public Counter(int counter) {
+		this.counter = counter;
+	}
+	@Override
+	public void run() {
+		for (int i = 0; i < 5; i++) {
+			System.out.println(Thread.currentThread().getName() + ":" + counter++);
+		}
+	}
+	
+	public static void main(String[] args) {
+		Runnable r1 = new Counter(counter);
+		Thread t1 = new Thread(r1);
+		Thread t2 = new Thread(r1);
+		t1.start();
+		t2.start();
+	}
+
+}

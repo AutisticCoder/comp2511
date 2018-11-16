@@ -1,0 +1,4 @@
+1537680094345	Rename resource 'ListMovie.fxml'
+1537680448940	Move 'ListMovieView.fxml' to 'view'
+1537680462911	Move 'BasketView.fxml' to 'view'
+1537680606077	Rename package 'view'

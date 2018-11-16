@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="JavaFX-GreedySnake/src"/>
+	<classpathentry kind="lib" path="JavaFX-GreedySnake/贪吃蛇大作战.jar"/>
+	<classpathentry kind="output" path="JavaFX-GreedySnake/bin"/>
+</classpath>

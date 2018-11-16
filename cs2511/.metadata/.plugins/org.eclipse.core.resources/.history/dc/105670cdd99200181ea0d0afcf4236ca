@@ -1,0 +1,11 @@
+package lab02.domain;
+import java.text.NumberFormat;
+import java.time.LocalDate;
+/*
+ * @author Aarthi
+ * A class to store details about staff
+ */
+public class Staff {
+
+	
+}
